@@ -7,4 +7,88 @@ body {
 	font-size: 14px;
 }
 
-/* ---------------------------------------------------- */
+
+.kontejner {
+	display: flex;
+}
+
+@media (min-width: 0px) {
+	.kontejner {
+	flex-direction: column;
+	}
+}
+
+@media (min-width: 540px) {
+	.kontejner {
+	flex-wrap: wrap;
+	float: left;
+	}	
+	.foto {
+	float: left;
+	}	
+}
+
+@media (min-width: 960px) {
+	.kontejner {
+	display: inline-block;
+	}
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 p {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.foto {
+	border-radius: 100%;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.kontakt {
+	flex-grow: 1;
+}
+
+@media (min-width: 0px) {
+	.kontakt {
+	border: 3px solid rgba(49, 22, 22, 0.041);
+	border-radius: 3%;
+	box-shadow: rgba(0, 225, 255, 0.253) 1px 1px 1px;
+	padding: 1%;
+	margin: 1%;
+	width: 25%;
+	}
+}
+
+@media (min-width: 540px) {
+	.kontakt {
+	border: 3px solid rgba(49, 22, 22, 0.041);
+	border-radius: 3%;
+	box-shadow: rgba(0, 225, 255, 0.253) 1px 1px 1px;
+	padding: 1%;
+	margin: 1%;
+	width: 50%;
+	}
+}
+
+@media (min-width: 960px) {
+	.kontakt {
+	border: 3px solid rgba(49, 22, 22, 0.041);
+	border-radius: 3%;
+	box-shadow: rgba(0, 225, 255, 0.253) 1px 1px 1px;
+	padding: 1%;
+	margin: 1%;
+	width: 25%;
+	}
+}
+
+
+
+
+/* -------------------------*/
